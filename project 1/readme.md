@@ -1,0 +1,1 @@
+Make a rectangle and we mouse on that rectangle on the left side want to gradually change the color of the rectangle to red and when we mouse to the right side we want to change the color to blue.

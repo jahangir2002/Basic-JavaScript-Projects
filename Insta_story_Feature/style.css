@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+body {
+    background-color: rgb(61, 133, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 480px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid black;
+    position: relative;
+}
+
+#stories {
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#stories::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    padding: 6px;
+    height: 90px;
+    width: 90px;
+    margin: 0 1.5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.story img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#full-screen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
